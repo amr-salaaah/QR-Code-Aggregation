@@ -21,14 +21,22 @@
 			<Item Name="Test GUI API.vi" Type="VI" URL="../Libraries/GUI/Test GUI API.vi"/>
 			<Item Name="Test Camera API.vi" Type="VI" URL="../Libraries/Camera/Test Camera API.vi"/>
 			<Item Name="Test DB API.vi" Type="VI" URL="../Libraries/DB/Test DB API.vi"/>
+			<Item Name="Test Controller 1 API.vi" Type="VI" URL="../Libraries/Controller 1/Test Controller 1 API.vi"/>
+			<Item Name="Test Scanner API.vi" Type="VI" URL="../Libraries/Scanner/Test Scanner API.vi"/>
 		</Item>
 		<Item Name="Modules" Type="Folder">
 			<Item Name="GUI.lvlib" Type="Library" URL="../Libraries/GUI/GUI.lvlib"/>
 			<Item Name="Camera.lvlib" Type="Library" URL="../Libraries/Camera/Camera.lvlib"/>
 			<Item Name="DB.lvlib" Type="Library" URL="../Libraries/DB/DB.lvlib"/>
+			<Item Name="Controller 1.lvlib" Type="Library" URL="../Libraries/Controller 1/Controller 1.lvlib"/>
+			<Item Name="Scanner.lvlib" Type="Library" URL="../Libraries/Scanner/Scanner.lvlib"/>
 		</Item>
 		<Item Name="Application.lvlib" Type="Library" URL="../Libraries/Application/Application.lvlib"/>
 		<Item Name="GUI data ref.ctl" Type="VI" URL="../Libraries/GUI/GUI data ref.ctl"/>
+		<Item Name="User level.ctl" Type="VI" URL="../Libraries/DB/Controls/User level.ctl"/>
+		<Item Name="Login info.ctl" Type="VI" URL="../Libraries/DB/Controls/Login info.ctl"/>
+		<Item Name="Main Buttons.ctl" Type="VI" URL="../Libraries/GUI/Controls/Main Buttons.ctl"/>
+		<Item Name="Settings.ctl" Type="VI" URL="../Libraries/GUI/Controls/Settings.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="AddNamedRendezvousPrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/rendezvs.llb/AddNamedRendezvousPrefix.vi"/>
@@ -118,6 +126,14 @@
 				<Item Name="DQMH_DQMH EULA URL--constant.vi" Type="VI" URL="/&lt;vilib&gt;/Delacor/Delacor QMH/Libraries/DQMH_DQMH EULA URL--constant.vi"/>
 				<Item Name="TRef Traverse.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/traverseref.llb/TRef Traverse.vi"/>
 				<Item Name="Trim Whitespace One-Sided.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace One-Sided.vi"/>
+				<Item Name="NI_Database_API.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/database/NI_Database_API.lvlib"/>
+				<Item Name="GOOP Object Repository Statistics.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/_goopsup.llb/GOOP Object Repository Statistics.ctl"/>
+				<Item Name="GOOP Object Repository Method.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/_goopsup.llb/GOOP Object Repository Method.ctl"/>
+				<Item Name="GOOP Object Repository.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/_goopsup.llb/GOOP Object Repository.vi"/>
+				<Item Name="NI_Data Type.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/Data Type/NI_Data Type.lvlib"/>
+			</Item>
+			<Item Name="user.lib" Type="Folder">
+				<Item Name="openg_array.lvlib" Type="Library" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/openg_array.lvlib"/>
 			</Item>
 			<Item Name="version.dll" Type="Document" URL="version.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
