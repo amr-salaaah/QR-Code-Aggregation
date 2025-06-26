@@ -16,5 +16,6 @@
 		<Item Name="Application Data--cluster.ctl" Type="VI" URL="../Application Data--cluster.ctl"/>
 		<Item Name="State--enum.ctl" Type="VI" URL="../State--enum.ctl"/>
 	</Item>
+	<Item Name="Launcher.vi" Type="VI" URL="../Launcher.vi"/>
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 </Library>

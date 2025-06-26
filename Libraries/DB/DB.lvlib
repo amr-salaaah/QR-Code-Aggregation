@@ -21,6 +21,9 @@
 				<Item Name="Show Diagram Argument--cluster.ctl" Type="VI" URL="../Show Diagram Argument--cluster.ctl"/>
 				<Item Name="Save settings Argument--cluster.ctl" Type="VI" URL="../Save settings Argument--cluster.ctl"/>
 				<Item Name="Load settings Argument--cluster.ctl" Type="VI" URL="../Load settings Argument--cluster.ctl"/>
+				<Item Name="get parent Argument--cluster.ctl" Type="VI" URL="../get parent Argument--cluster.ctl"/>
+				<Item Name="get parent (Reply Payload)--cluster.ctl" Type="VI" URL="../get parent (Reply Payload)--cluster.ctl"/>
+				<Item Name="link parent to children Argument--cluster.ctl" Type="VI" URL="../link parent to children Argument--cluster.ctl"/>
 			</Item>
 			<Item Name="Broadcast" Type="Folder">
 				<Item Name="Did Init Argument--cluster.ctl" Type="VI" URL="../Did Init Argument--cluster.ctl"/>
@@ -36,6 +39,8 @@
 			<Item Name="Show Diagram.vi" Type="VI" URL="../Show Diagram.vi"/>
 			<Item Name="Save settings.vi" Type="VI" URL="../Save settings.vi"/>
 			<Item Name="Load settings.vi" Type="VI" URL="../Load settings.vi"/>
+			<Item Name="get parent.vi" Type="VI" URL="../get parent.vi"/>
+			<Item Name="link parent to children.vi" Type="VI" URL="../link parent to children.vi"/>
 		</Item>
 		<Item Name="Start Module.vi" Type="VI" URL="../Start Module.vi"/>
 		<Item Name="Synchronize Module Events.vi" Type="VI" URL="../Synchronize Module Events.vi"/>
@@ -112,4 +117,5 @@
 	<Item Name="DB connected in local host.vi" Type="VI" URL="../SubVIs/DB connected in local host.vi"/>
 	<Item Name="Get logged in user.vi" Type="VI" URL="../SubVIs/Get logged in user.vi"/>
 	<Item Name="Load data from DB.vi" Type="VI" URL="../SubVIs/Load data from DB.vi"/>
+	<Item Name="Linking Query.vi" Type="VI" URL="../SubVIs/Linking Query.vi"/>
 </Library>
