@@ -22,7 +22,7 @@
 			<Item Name="Test Camera API.vi" Type="VI" URL="../Libraries/Camera/Test Camera API.vi"/>
 			<Item Name="Test DB API.vi" Type="VI" URL="../Libraries/DB/Test DB API.vi"/>
 			<Item Name="Test Controller API.vi" Type="VI" URL="../Libraries/Controller/Test Controller API.vi"/>
-			<Item Name="Test Scanner API.vi" Type="VI" URL="../Libraries/Scanner/Test Scanner API.vi"/>
+			<Item Name="Test Handheld Scanner API.vi" Type="VI" URL="../Libraries/Handheld Scanner/Test Handheld Scanner API.vi"/>
 			<Item Name="Test PLC API.vi" Type="VI" URL="../Libraries/PLC/Test PLC API.vi"/>
 			<Item Name="Test Aggregation 1 API.vi" Type="VI" URL="../Libraries/Aggregation 1/Test Aggregation 1 API.vi"/>
 		</Item>
@@ -31,7 +31,7 @@
 			<Item Name="Camera.lvlib" Type="Library" URL="../Libraries/Camera/Camera.lvlib"/>
 			<Item Name="DB.lvlib" Type="Library" URL="../Libraries/DB/DB.lvlib"/>
 			<Item Name="Controller.lvlib" Type="Library" URL="../Libraries/Controller/Controller.lvlib"/>
-			<Item Name="Scanner.lvlib" Type="Library" URL="../Libraries/Scanner/Scanner.lvlib"/>
+			<Item Name="Handheld Scanner.lvlib" Type="Library" URL="../Libraries/Handheld Scanner/Handheld Scanner.lvlib"/>
 			<Item Name="PLC.lvlib" Type="Library" URL="../Libraries/PLC/PLC.lvlib"/>
 			<Item Name="Aggregation 1.lvlib" Type="Library" URL="../Libraries/Aggregation 1/Aggregation 1.lvlib"/>
 		</Item>
@@ -46,6 +46,8 @@
 		<Item Name="Agg level 1 state enum.ctl" Type="VI" URL="../Libraries/Aggregation 1/Controls/Agg level 1 state enum.ctl"/>
 		<Item Name="Agg level 1 state cluster.ctl" Type="VI" URL="../Libraries/Aggregation 1/Controls/Agg level 1 state cluster.ctl"/>
 		<Item Name="Serial Status.ctl" Type="VI" URL="../Libraries/DB/Controls/Serial Status.ctl"/>
+		<Item Name="HW Status.ctl" Type="VI" URL="../Libraries/GUI/Controls/HW Status.ctl"/>
+		<Item Name="HW Modules.ctl" Type="VI" URL="../Libraries/GUI/Controls/HW Modules.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="AddNamedRendezvousPrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/rendezvs.llb/AddNamedRendezvousPrefix.vi"/>

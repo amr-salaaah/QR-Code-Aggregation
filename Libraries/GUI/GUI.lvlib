@@ -24,6 +24,7 @@
 				<Item Name="Load settings Argument--cluster.ctl" Type="VI" URL="../Load settings Argument--cluster.ctl"/>
 				<Item Name="update serials array Argument--cluster.ctl" Type="VI" URL="../update serials array Argument--cluster.ctl"/>
 				<Item Name="update parent Argument--cluster.ctl" Type="VI" URL="../update parent Argument--cluster.ctl"/>
+				<Item Name="update HW status indicator Argument--cluster.ctl" Type="VI" URL="../update HW status indicator Argument--cluster.ctl"/>
 			</Item>
 			<Item Name="Broadcast" Type="Folder">
 				<Item Name="Did Init Argument--cluster.ctl" Type="VI" URL="../Did Init Argument--cluster.ctl"/>
@@ -44,6 +45,7 @@
 			<Item Name="Load settings.vi" Type="VI" URL="../Load settings.vi"/>
 			<Item Name="update serials array.vi" Type="VI" URL="../update serials array.vi"/>
 			<Item Name="update parent.vi" Type="VI" URL="../update parent.vi"/>
+			<Item Name="update HW status indicator.vi" Type="VI" URL="../update HW status indicator.vi"/>
 		</Item>
 		<Item Name="Start Module.vi" Type="VI" URL="../Start Module.vi"/>
 		<Item Name="Synchronize Module Events.vi" Type="VI" URL="../Synchronize Module Events.vi"/>
