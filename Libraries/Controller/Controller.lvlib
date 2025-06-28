@@ -22,6 +22,9 @@
 				<Item Name="Logout Argument--cluster.ctl" Type="VI" URL="../Logout Argument--cluster.ctl"/>
 				<Item Name="scanner data received Argument--cluster.ctl" Type="VI" URL="../scanner data received Argument--cluster.ctl"/>
 				<Item Name="connect all modules Argument--cluster.ctl" Type="VI" URL="../connect all modules Argument--cluster.ctl"/>
+				<Item Name="HW Starus Argument--cluster.ctl" Type="VI" URL="../HW Starus Argument--cluster.ctl"/>
+				<Item Name="Load settings Argument--cluster.ctl" Type="VI" URL="../Load settings Argument--cluster.ctl"/>
+				<Item Name="DB Connection Argument--cluster.ctl" Type="VI" URL="../DB Connection Argument--cluster.ctl"/>
 			</Item>
 			<Item Name="Broadcast" Type="Folder">
 				<Item Name="Did Init Argument--cluster.ctl" Type="VI" URL="../Did Init Argument--cluster.ctl"/>
@@ -39,6 +42,9 @@
 			<Item Name="Logout.vi" Type="VI" URL="../Logout.vi"/>
 			<Item Name="scanner data received.vi" Type="VI" URL="../scanner data received.vi"/>
 			<Item Name="connect all modules.vi" Type="VI" URL="../connect all modules.vi"/>
+			<Item Name="HW Starus.vi" Type="VI" URL="../HW Starus.vi"/>
+			<Item Name="Load settings.vi" Type="VI" URL="../Load settings.vi"/>
+			<Item Name="DB Connection.vi" Type="VI" URL="../DB Connection.vi"/>
 		</Item>
 		<Item Name="Start Module.vi" Type="VI" URL="../Start Module.vi"/>
 		<Item Name="Synchronize Module Events.vi" Type="VI" URL="../Synchronize Module Events.vi"/>

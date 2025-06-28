@@ -19,7 +19,6 @@
 		</Item>
 		<Item Name="Testers" Type="Folder">
 			<Item Name="Test GUI API.vi" Type="VI" URL="../Libraries/GUI/Test GUI API.vi"/>
-			<Item Name="Test Camera API.vi" Type="VI" URL="../Libraries/Camera/Test Camera API.vi"/>
 			<Item Name="Test DB API.vi" Type="VI" URL="../Libraries/DB/Test DB API.vi"/>
 			<Item Name="Test Controller API.vi" Type="VI" URL="../Libraries/Controller/Test Controller API.vi"/>
 			<Item Name="Test Handheld Scanner API.vi" Type="VI" URL="../Libraries/Handheld Scanner/Test Handheld Scanner API.vi"/>
@@ -28,12 +27,12 @@
 		</Item>
 		<Item Name="Modules" Type="Folder">
 			<Item Name="GUI.lvlib" Type="Library" URL="../Libraries/GUI/GUI.lvlib"/>
-			<Item Name="Camera.lvlib" Type="Library" URL="../Libraries/Camera/Camera.lvlib"/>
 			<Item Name="DB.lvlib" Type="Library" URL="../Libraries/DB/DB.lvlib"/>
 			<Item Name="Controller.lvlib" Type="Library" URL="../Libraries/Controller/Controller.lvlib"/>
 			<Item Name="Handheld Scanner.lvlib" Type="Library" URL="../Libraries/Handheld Scanner/Handheld Scanner.lvlib"/>
 			<Item Name="PLC.lvlib" Type="Library" URL="../Libraries/PLC/PLC.lvlib"/>
 			<Item Name="Aggregation 1.lvlib" Type="Library" URL="../Libraries/Aggregation 1/Aggregation 1.lvlib"/>
+			<Item Name="cameraV1.lvlib" Type="Library" URL="../Libraries/cameraV1/cameraV1.lvlib"/>
 		</Item>
 		<Item Name="Application.lvlib" Type="Library" URL="../Libraries/Application/Application.lvlib"/>
 		<Item Name="GUI data ref.ctl" Type="VI" URL="../Libraries/GUI/GUI data ref.ctl"/>
@@ -174,6 +173,14 @@
 				<Item Name="Standard Data Model.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Data Model/Standard Data Model/Standard Data Model.lvclass"/>
 				<Item Name="IP Data Unit.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Transmission Data Unit/IP/IP Data Unit.lvclass"/>
 				<Item Name="TCP Master.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Network Protocol/Network Master/TCP/TCP Master.lvclass"/>
+				<Item Name="Create Directory Recursive.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Create Directory Recursive.vi"/>
+				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
+				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
+				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
+				<Item Name="XControlSupport.lvlib" Type="Library" URL="/&lt;vilib&gt;/_xctls/XControlSupport.lvlib"/>
+				<Item Name=".NET Object to Variant.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/dotnet.llb/.NET Object to Variant.vi"/>
+				<Item Name="System Directory Type.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/System Directory Type.ctl"/>
+				<Item Name="Get System Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/Get System Directory.vi"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="openg_array.lvlib" Type="Library" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/openg_array.lvlib"/>
@@ -184,6 +191,25 @@
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="WebView2 Control.xctl" Type="XControl" URL="../../Islam/Ser Batchino/Bitchino/labview project/Software/SRC/LV-WebView2-master/Source/Webview2 Control/WebView2 Control.xctl"/>
+			<Item Name="Microsoft.Web.WebView2.Core.dll" Type="Document" URL="../../Islam/Ser Batchino/Bitchino/labview project/Software/SRC/LV-WebView2-master/Source/Libs/Microsoft.Web.WebView2.Core.dll"/>
+			<Item Name="mscorlib" Type="VI" URL="mscorlib">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="Microsoft.Web.WebView2.WinForms.dll" Type="Document" URL="../../Islam/Ser Batchino/Bitchino/labview project/Software/SRC/LV-WebView2-master/Source/Libs/Microsoft.Web.WebView2.WinForms.dll"/>
+			<Item Name="System.Web.Extensions" Type="Document" URL="System.Web.Extensions">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="commands 1.ctl" Type="VI" URL="../Libraries/cameraV1/Controls/commands 1.ctl"/>
+			<Item Name="Stop Module.vi" Type="VI" URL="../Libraries/Camera/Stop Module.vi"/>
+			<Item Name="Obtain Broadcast Events for Registration.vi" Type="VI" URL="../Libraries/Camera/Obtain Broadcast Events for Registration.vi"/>
+			<Item Name="Init Select Module Ring.vi" Type="VI" URL="../Libraries/Camera/Init Select Module Ring.vi"/>
+			<Item Name="Update Select Module Ring.vi" Type="VI" URL="../Libraries/Camera/Update Select Module Ring.vi"/>
+			<Item Name="Start Module.vi" Type="VI" URL="../Libraries/Camera/Start Module.vi"/>
+			<Item Name="Synchronize Module Events.vi" Type="VI" URL="../Libraries/Camera/Synchronize Module Events.vi"/>
+			<Item Name="Show Panel.vi" Type="VI" URL="../Libraries/Camera/Show Panel.vi"/>
+			<Item Name="Hide Panel.vi" Type="VI" URL="../Libraries/Camera/Hide Panel.vi"/>
+			<Item Name="commands 1.ctl" Type="VI" URL="../../Users/Islam/Desktop/New folder (3)/QR-Code-Aggregation/Libraries/Camera/commands 1.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Application" Type="EXE">

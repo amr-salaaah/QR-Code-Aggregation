@@ -24,6 +24,7 @@
 				<Item Name="get parent Argument--cluster.ctl" Type="VI" URL="../get parent Argument--cluster.ctl"/>
 				<Item Name="get parent (Reply Payload)--cluster.ctl" Type="VI" URL="../get parent (Reply Payload)--cluster.ctl"/>
 				<Item Name="link parent to children Argument--cluster.ctl" Type="VI" URL="../link parent to children Argument--cluster.ctl"/>
+				<Item Name="Load settings (Reply Payload)--cluster.ctl" Type="VI" URL="../Load settings (Reply Payload)--cluster.ctl"/>
 			</Item>
 			<Item Name="Broadcast" Type="Folder">
 				<Item Name="Did Init Argument--cluster.ctl" Type="VI" URL="../Did Init Argument--cluster.ctl"/>
