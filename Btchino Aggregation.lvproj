@@ -34,6 +34,14 @@
 			<Item Name="Aggregation 1.lvlib" Type="Library" URL="../Libraries/Aggregation 1/Aggregation 1.lvlib"/>
 			<Item Name="cameraV1.lvlib" Type="Library" URL="../Libraries/cameraV1/cameraV1.lvlib"/>
 		</Item>
+		<Item Name="Unit Tests" Type="Folder">
+			<Item Name="cameraV1" Type="Folder">
+				<Item Name="cameraV1 setup.vi" Type="VI" URL="../Unit Tests/cameraV1/cameraV1 setup.vi"/>
+				<Item Name="cameraV1 teardown.vi" Type="VI" URL="../Unit Tests/cameraV1/cameraV1 teardown.vi"/>
+				<Item Name="Test - cameraV1 - Cam Image Response 1.vi" Type="VI" URL="../Unit Tests/cameraV1/Test - cameraV1 - Cam Image Response 1.vi"/>
+				<Item Name="Test - cameraV1 - Cam Image Response 2.vi" Type="VI" URL="../Unit Tests/cameraV1/Test - cameraV1 - Cam Image Response 2.vi"/>
+			</Item>
+		</Item>
 		<Item Name="Application.lvlib" Type="Library" URL="../Libraries/Application/Application.lvlib"/>
 		<Item Name="GUI data ref.ctl" Type="VI" URL="../Libraries/GUI/GUI data ref.ctl"/>
 		<Item Name="User level.ctl" Type="VI" URL="../Libraries/DB/Controls/User level.ctl"/>
@@ -201,15 +209,15 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="commands 1.ctl" Type="VI" URL="../Libraries/cameraV1/Controls/commands 1.ctl"/>
-			<Item Name="Stop Module.vi" Type="VI" URL="../Libraries/Camera/Stop Module.vi"/>
+			<Item Name="commands 1.ctl" Type="VI" URL="../../Users/Islam/Desktop/New folder (3)/QR-Code-Aggregation/Libraries/Camera/commands 1.ctl"/>
 			<Item Name="Obtain Broadcast Events for Registration.vi" Type="VI" URL="../Libraries/Camera/Obtain Broadcast Events for Registration.vi"/>
 			<Item Name="Init Select Module Ring.vi" Type="VI" URL="../Libraries/Camera/Init Select Module Ring.vi"/>
 			<Item Name="Update Select Module Ring.vi" Type="VI" URL="../Libraries/Camera/Update Select Module Ring.vi"/>
 			<Item Name="Start Module.vi" Type="VI" URL="../Libraries/Camera/Start Module.vi"/>
 			<Item Name="Synchronize Module Events.vi" Type="VI" URL="../Libraries/Camera/Synchronize Module Events.vi"/>
+			<Item Name="Stop Module.vi" Type="VI" URL="../Libraries/Camera/Stop Module.vi"/>
 			<Item Name="Show Panel.vi" Type="VI" URL="../Libraries/Camera/Show Panel.vi"/>
 			<Item Name="Hide Panel.vi" Type="VI" URL="../Libraries/Camera/Hide Panel.vi"/>
-			<Item Name="commands 1.ctl" Type="VI" URL="../../Users/Islam/Desktop/New folder (3)/QR-Code-Aggregation/Libraries/Camera/commands 1.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Application" Type="EXE">
@@ -228,7 +236,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{A3D48F6E-64BC-45A6-ADEB-64083211F11E}</Property>
-				<Property Name="Bld_version.build" Type="Int">2</Property>
+				<Property Name="Bld_version.build" Type="Int">3</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Application.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Application/Application.exe</Property>
@@ -237,16 +245,40 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/Application/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{0DF01486-5565-44E3-A0C2-CD25CDD850B1}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{598AC8ED-6C93-45F1-893F-3F1F442C203A}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Application.lvlib/Main.vi</Property>
-				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Application.lvlib/Launcher.vi</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[2].type" Type="Str">VI</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Modules/GUI.lvlib/Main.vi</Property>
+				<Property Name="Source[3].properties[0].type" Type="Str">Window has title bar</Property>
+				<Property Name="Source[3].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[3].properties[1].type" Type="Str">Show menu bar</Property>
+				<Property Name="Source[3].properties[1].value" Type="Bool">false</Property>
+				<Property Name="Source[3].properties[2].type" Type="Str">Show vertical scroll bar</Property>
+				<Property Name="Source[3].properties[2].value" Type="Bool">false</Property>
+				<Property Name="Source[3].properties[3].type" Type="Str">Show horizontal scroll bar</Property>
+				<Property Name="Source[3].properties[3].value" Type="Bool">false</Property>
+				<Property Name="Source[3].properties[4].type" Type="Str">Allow user to close window</Property>
+				<Property Name="Source[3].properties[4].value" Type="Bool">false</Property>
+				<Property Name="Source[3].properties[5].type" Type="Str">Show toolbar</Property>
+				<Property Name="Source[3].properties[5].value" Type="Bool">false</Property>
+				<Property Name="Source[3].properties[6].type" Type="Str">Show Abort button</Property>
+				<Property Name="Source[3].properties[6].value" Type="Bool">false</Property>
+				<Property Name="Source[3].properties[7].type" Type="Str">Show fp when called</Property>
+				<Property Name="Source[3].properties[7].value" Type="Bool">false</Property>
+				<Property Name="Source[3].properties[8].type" Type="Str">Window behavior</Property>
+				<Property Name="Source[3].properties[8].value" Type="Str">Default</Property>
+				<Property Name="Source[3].propertiesCount" Type="Int">9</Property>
+				<Property Name="Source[3].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">4</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">Application</Property>
 				<Property Name="TgtF_internalName" Type="Str">Application</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2019</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2025</Property>
 				<Property Name="TgtF_productName" Type="Str">Application</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{6113D017-51FE-4C02-9632-17FD25301CC4}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">Application.exe</Property>
